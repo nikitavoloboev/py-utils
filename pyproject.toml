@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "utils"
+version = "0.1.0"
+description = ""
+authors = ["Nikita <github@nikiv.dev>"]
+readme = "readme.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+swarms = {git = "https://github.com/kyegomez/swarms.git"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
